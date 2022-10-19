@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./index.css";
+import "./App.css";
 
 const plusFive = (num) => {
   console.log("i was called!");
@@ -23,7 +23,7 @@ export default function App() {
               setNum(num + 1);
             }}
           >
-            Update Number{" "}
+            Update Number
           </button>
           <button
             onClick={() => {
@@ -31,7 +31,7 @@ export default function App() {
             }}
           >
             {" "}
-            Toggle the light{" "}
+            Toggle the light
           </button>
         </div>
       </div>
